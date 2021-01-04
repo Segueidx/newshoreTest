@@ -1,0 +1,10 @@
+$primary-color: #873436;
+$primary-background: #873436;
+$text-primary-color: #D9D9D9;
+$text-secondary-color: $primary-color;
+$text-white: #fff;
+
+.pointer{
+  cursor:pointer;
+}
+.fading{animation:fading .7s}@keyframes fading{0%{opacity:0}75%{opacity:.5}100%{opacity:1}}
